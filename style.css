@@ -43,9 +43,10 @@ button{
     border-radius: 50px !important;
 
 }
+
 #setid{
     position: relative;
-    top: 18px;
+    top: 20px;
 }
 
 #hero .col{
@@ -62,6 +63,18 @@ button{
     max-width: 130% !important;
     width: 130%;
 }
+#hero .card:hover{
+    transform:translate(-5px,-5px);
+    cursor: pointer;
+    transition: 0.8s;
+    box-shadow: 10px 10px 10px grey;
+}
+#hero .card:active{
+    transform:translate(3px,3px);
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 2px 2px 2px grey;
+}
 #hero .card{
     box-shadow: 11px 7px 16px #f9f9f9;
     border: 0;
@@ -72,8 +85,35 @@ button{
     height: 50px;
     margin-bottom: 20px;
 }
+#about-us .about:hover{
+
+    transform:translate(-5px,-5px);
+    cursor: pointer;
+    transition: 0.8s;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#about-us .about:active{
+    transform:translate(3px,3px);
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 2px 2px 2px grey;
+}
+
 #projects .projects{
     margin-bottom: 50px;
+}
+#projects .card:hover{
+    transform:translate(-5px,-5px);
+    cursor: pointer;
+    transition: 0.8s;
+    box-shadow: 10px 10px 10px grey;
+}
+#projects .card:active{
+    transform:translate(3px,3px);
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 2px 2px 2px grey;
 }
 #contact{
     text-align: center;
